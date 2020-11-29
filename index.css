@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     background-color: #21212E;
+    font-family: Brandon Grotesque;
 }
 .top{
     display: flex;
     justify-content: space-between;
     color: white;
-    font-family: Brandon Grotesque;
+    
     }
 .top .head{
     width: 20%;
@@ -60,8 +61,21 @@
 .main .mright{
     width:50%;
     margin-left: 20%;
-    display: flex; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    overflow: hidden;
   }
+.mright img{
+    padding: 10px;
+    
+}
+.main .abc{
+    position: absolute;
+    top: 5.5%;
+    left:73%; 
+    
+}
 
 
 
@@ -97,8 +111,27 @@
     align-items: center;
     margin-left: 50%;
 }
+.m2right .img21{
+    
+    background-color: #cc20cc;
+    border: 2px solid #cc20cc;
+   border-radius: 20px;
+    transform: rotate(30deg);
 
+   
+}
 
+.m2right .img31{
+     background-color: #06a0fd;
+    border: 2px solid  #06a0fd;
+   border-radius: 20px;
+    transform: rotate(-15deg);
+    
+}
+.img21 img{
+       transform: rotate(-15deg);
+
+ }
 
 .m3ain{
     color: white;
@@ -116,11 +149,8 @@
     display: flex;
 }
 .img2 img{
-   
-    padding-left: 90px;
-    height: 400px;
+    height: 450px;
 }
-
 
 
 
@@ -267,11 +297,12 @@
     border-radius: 20px;
     padding: 5px;
     padding-right:50px;
+    padding-left: 50px;
 
 }
 .subs h3{
     font-size: 25px;
-    margin-left: 20%;
+    margin-left: 10%;
     background-color: #2c2c2e;
 }
 .subs a{
@@ -309,3 +340,7 @@
 p{
     color:#858589;
 }
+
+
+
+
